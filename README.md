@@ -1,10 +1,10 @@
 # Predicting-Viewer-Engagement
-Context
-*Goal: predict viewer engagement in educational videos.
+## Context
+### Goal: predict viewer engagement in educational videos.
 
-*Dataset: Educational video features from the VLE Dataset https://github.com/sahanbull/VLE-Dataset
+### Dataset: Educational video features from the VLE Dataset https://github.com/sahanbull/VLE-Dataset
 
-*Data fields in train.csv & test.csv:
+#### Data fields in train.csv & test.csv:
 
 -title_word_count - the number of words in the title of the video.
 
@@ -20,6 +20,6 @@ Context
 
 -silent_period_rate - The fraction of time in the lecture video that is silence (no speaking).
 
-*Data field in train.csv only:
+#### Data field in train.csv only:
 
 -engagement - Target label for training. True if learners watched a substantial portion of the video (at least 30%), or False otherwise.
